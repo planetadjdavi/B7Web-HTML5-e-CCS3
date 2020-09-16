@@ -1,19 +1,19 @@
-
+/*
 #titulo  { background-color: black;
     color: red; /* O atributo class pode ser usado em mais de uma tag */ 
 
 
-
+/*
 }
 
 .texto { color: red; /* O atributo class pode ser usado em mais de uma tag */ 
 
-  
+/*  
 }
-   
+  /* 
 color: red; /* O atributo class pode ser usado em mais de uma tag */ 
 
-
+/*
 
 a {  font-weight: bolder;
 
@@ -25,9 +25,10 @@ p {
 /* solid, doded , dash *  bordas quadriculadas 
 border-left, rigth , top 
 border: 5px solid blue  */
-
+/*
 background-color: blue;
 /* bordas do background */
+/*
 border-radius: 10px;
 
 }
@@ -47,7 +48,12 @@ div {
 
 */
 
-/* uma das primeiras coisas que fazemos num site é dar um zero no body no margin para poder tirar o tamanho padrão do margin */
+
+/* uma das primeiras coisas que fazemos num site é dar um zero no body no margin para poder tirar o tamanho padrão do margin 
+
+border: solid green;
+*/
+
 
 body {
 margin: 0px;
@@ -55,18 +61,40 @@ margin: 0px;
 }
 
 
-.exemplo { border: solid green;
+.exemplo { 
+    background-color: black;
     
-    margin: 10px;
-     width: 200px;
+    height: 100px;
+     width: 100%; /* ou auto */
+
+}
+
+
+img {
+
+width: auto;
+
+}
+
      /* encima direita baixo esquerda */
-     
+  
+     /*
 padding: 10px 10px 10px 50px;
 
 
 /* cima, baixo , direita , esquerda 
 padding: 10px 10px; */
-    }
+    
+
+ /* o link a no <a hre=" se estiver em outra página de arquivo o caminho tem que ser especificado ex: paginas/index.html 
+
+  o atributo target <a href="" target="_black"></a> abre uma nova aba em vez de permanecer na mesma aba que se clica no link
+  
+  
+   O atributo title ele informa ao passar o mouse por cima do link criado um título sobre o mesmo  <a href="" target="_black" title="página de login"></a>
+  
+  */
+
 
 
 

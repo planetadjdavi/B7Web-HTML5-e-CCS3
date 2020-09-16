@@ -1,4 +1,4 @@
  #!/bin/bash
  clear;
- echo "heloo wordl";
+ echo "hello amigo";
  exit; 
